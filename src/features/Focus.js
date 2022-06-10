@@ -5,7 +5,7 @@ import {colors} from '../utils/colors';
 
 export const Focus = () => (
   <View style={styles.container}>
-    <Text style={styles.text}>Focus Feature!</Text>
+    <Text style={styles.text}>Focus Feature</Text>
   </View>
 )
 
