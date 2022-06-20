@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, View, Text} from 'react-native';
 import {TextInput} from 'react-native-paper';
 import {RoundedButton} from '../components/RoundedButton';
 import {spacing} from '../utils/sizes';
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     },
     inputContainer: {
         padding: spacing.lg,
-        justifyContent: 'top',
+        justifyContent: 'center',
         flexDirection: 'row',
     }
 })
